@@ -4,12 +4,9 @@
   "installCommand": "npm install",
   "framework": "vite",
   "outputDirectory": "dist",
-  "env": [
-    {
-      "key": "VITE_API_URL",
-      "value": "https://api.example.com"
-    }
-  ],
+  "env": {
+    "VITE_API_URL": "https://api.example.com"
+  },
   "headers": [
     {
       "source": "/service-worker.js",
